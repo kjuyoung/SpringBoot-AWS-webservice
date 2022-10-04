@@ -97,9 +97,9 @@ public class PostsApiControllerTest {
     public void Posts_수정() throws Exception {
         //given
         Posts savedPosts = pr.save(Posts.builder()
-                .title("title")
-                .content("content")
-                .author("author")
+                .title("springBoot")
+                .content("content_222")
+                .author("kjuyoung")
                 .build());
         Long updateId = savedPosts.getId();
         String expectedTitle = "title2";
